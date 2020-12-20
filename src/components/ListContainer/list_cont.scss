@@ -1,0 +1,29 @@
+@import '../_settings/variables';
+
+.todo-app-list-cont {
+    margin: 1rem 0;
+
+    .todo-list-element {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        background-color: $color-white;
+        padding: 1rem;
+        border-radius: .3rem;
+        box-shadow: .5rem .5rem 1rem rgba(0,0,0,.2);
+        margin: 1rem 0 0;
+
+        .task-name {
+            font-size: 1.3rem;
+            color: $color-black-light;
+            font-weight: 600;
+        }
+
+        .task-datetime {
+            font-size: 1.2rem;
+            color: $color-gray-dark;
+            font-weight: 600;
+            margin-top: .3rem;
+        }
+    }
+}

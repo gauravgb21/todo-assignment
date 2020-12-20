@@ -1,0 +1,19 @@
+@import '../_settings/variables';
+
+.todo-app-header {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;   
+
+    .welcome-note {
+        font-size: 1.7rem;
+        color: $color-black-light;
+        font-weight: 600;
+    }
+
+    .todo-count {
+        font-size: 1.3rem;
+        color: $color-gray-dark;
+        font-weight: 600;
+    }
+}

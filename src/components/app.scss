@@ -1,0 +1,11 @@
+@import './_settings/base';
+@import './_settings/variables';
+@import './_settings/animations';
+
+
+.todo-app-cont {
+    // border: 1px solid orange;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 70rem;
+}
